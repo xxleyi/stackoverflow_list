@@ -1,0 +1,2 @@
+- [python - How to convert a list of dicts into bytes? - Stack Overflow](https://stackoverflow.com/questions/56590103/how-to-convert-a-list-of-dicts-into-bytes/56590119#56590119)
+- [calling enclosing functions in python - Stack Overflow](https://stackoverflow.com/questions/56589524/calling-enclosing-functions-in-python/56589710#56589710)
