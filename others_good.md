@@ -9,3 +9,15 @@ except TypeError:
 ```
 
 ---
+- [python - methods of metaclasses on class instances - Stack Overflow](https://stackoverflow.com/questions/2242715/methods-of-metaclasses-on-class-instances)
+
+![i](https://i.stack.imgur.com/KhYPc.png)
+
+Schematically, it boils down to:
+```
+type -- object
+  |       |
+Meta --   A  -- a
+```
+
+---
