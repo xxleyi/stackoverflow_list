@@ -44,3 +44,8 @@ JS 经常带来惊吓。
 JS 再一次出乎我意料，于是反向推理一番，还挺过瘾。
 
 ---
+[python - Changes made to array not reflected in console - Stack Overflow](https://stackoverflow.com/questions/56615309/changes-made-to-array-not-reflected-in-console/56615658?noredirect=1#comment99805605_56615658)
+
+自己满意，提问者也满意。值得被更多人看到，可惜这我之力所能及，随缘吧。
+
+---
