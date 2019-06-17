@@ -21,3 +21,11 @@ Meta --   A  -- a
 ```
 
 ---
+[How to extract list between 2 list python 3? - Stack Overflow](https://stackoverflow.com/questions/56579862/how-to-extract-list-between-2-list-python-3)
+
+挺精彩，三个答案三种方式：
+* f string, zip
+* map, lambda, \*agrs
+* comprehesion, join, zip
+
+---
