@@ -44,7 +44,7 @@ JS 经常带来惊吓。
 JS 再一次出乎我意料，于是反向推理一番，还挺过瘾。
 
 ---
-[python - Changes made to array not reflected in console - Stack Overflow](https://stackoverflow.com/questions/56615309/changes-made-to-array-not-reflected-in-console/56615658?noredirect=1#comment99805605_56615658)
+[python - Changes made to variable not reflected in console - Stack Overflow](https://stackoverflow.com/questions/56615309/changes-made-to-array-not-reflected-in-console/56615658?noredirect=1#comment99805605_56615658)
 
 自己满意，提问者也满意。值得被更多人看到，可惜这非我之力所能及，随缘吧。
 
@@ -52,5 +52,35 @@ JS 再一次出乎我意料，于是反向推理一番，还挺过瘾。
 [python - Is there a recommended way of ensuring immutability - Stack Overflow](https://stackoverflow.com/questions/56616950/is-there-a-recommended-way-of-ensuring-immutability/56617054#56617054)
 
 传参永远是问题，搞懂赋值便搞懂传参，可惜少有人能做好这一点。
+
+---
+[python - Is there a more pythonic way to write multiple comparisons - Stack Overflow](https://stackoverflow.com/questions/56544011/is-there-a-more-pythonic-way-to-write-multiple-comparisons/56623275#56623275)
+
+大部分 Python 原生字面操作符均对应于 operator module 中的一个操作符函数，包括 and, or, not, +, -, \*, \/, \[\], \. 等
+
+---
+[python - how to fix movement of this sprite class (Enemy) - Stack Overflow](https://stackoverflow.com/questions/56623628/how-to-fix-movement-of-this-sprite-class-enemy/56625145#56625145)
+
+Python class typical issue.
+
+---
+[python - List-comprehension - default first value - Stack Overflow](https://stackoverflow.com/questions/56628203/list-comprehension-default-first-value/56628508#56628508)
+
+善用 itertools, such as chain
+
+---
+[python - Change JSON structure while iterating over it - Stack Overflow](https://stackoverflow.com/questions/56630366/change-json-structure-while-iterating-over-it/56630856#56630856)
+
+mutate dct in iteration by list(dct.keys())
+
+---
+[flask - How do I access a method that's inside a python inner class? - Stack Overflow](https://stackoverflow.com/questions/56631168/how-do-i-access-a-method-thats-inside-a-python-inner-class/56634452#56634452)
+
+be brave and clever to look into source code of third libary.
+
+---
+[python - Is it permitted to use a user defined decorator inside an abstract class? Or, should it be used after inheritance? - Stack Overflow](https://stackoverflow.com/questions/56639879/is-it-permitted-to-use-a-user-defined-decorator-inside-an-abstract-class-or-sh/56639990#56639990)
+
+know well about the decorate and class in Python
 
 ---
