@@ -29,3 +29,13 @@ Meta --   A  -- a
 * comprehesion, join, zip
 
 ---
+[sqlalchemy - How to elegantly check the existence of an object/instance/variable and simultaneously assign it to variable if it exists in python? - Stack Overflow](https://stackoverflow.com/questions/6587879/how-to-elegantly-check-the-existence-of-an-object-instance-variable-and-simultan)
+
+sqlalchemy way of exists:
+```python
+from sqlalchemy import exists
+(ret, ), = Session.query(exists().where(SomeObject.field==value))
+ret = Session.query(exists().where(SomeObject.field==value)).scalar()
+```
+
+---
