@@ -84,3 +84,8 @@ be brave and clever to look into source code of third libary.
 know well about the decorate and class in Python
 
 ---
+[Python: Different types of dictionary key data - Stack Overflow](https://stackoverflow.com/questions/56640529/python-different-types-of-dictionary-key-data/56640750#56640750)
+
+how to solve complex problem in oneline, simple and clean :-)
+
+---
