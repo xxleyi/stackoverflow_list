@@ -99,3 +99,8 @@ must know global and local.
 same as above in some way.
 
 ---
+[python - How can I re-write this code in one line? - Stack Overflow](https://stackoverflow.com/questions/56666259/how-can-i-re-write-this-code-in-one-line/56667318#56667318)
+
+very cool.
+
+---
