@@ -89,3 +89,13 @@ know well about the decorate and class in Python
 how to solve complex problem in oneline, simple and clean :-)
 
 ---
+[Global and local scope in python - Stack Overflow](https://stackoverflow.com/questions/56651307/global-and-local-scope-in-python/56652093#56652093)
+
+must know global and local.
+
+---
+[python - Reload SpaCy language model on a running script - Stack Overflow](https://stackoverflow.com/questions/56615584/reload-spacy-language-model-on-a-running-script/56658091#56658091)
+
+same as above in some way.
+
+---
