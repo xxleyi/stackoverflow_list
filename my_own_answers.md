@@ -106,6 +106,12 @@ very cool.
 ---
 [python - How can I multiply elements in one list while providing a range in another - Stack Overflow](https://stackoverflow.com/questions/56662199/how-can-i-multiply-elements-in-one-list-while-providing-a-range-in-another/56669574#56669574)
 
-不断优化，越看越舒服，尽量不用 index 应该成为 python 的一个小准则
+不断优化
+```python
+l_name = ['Doc_1', 'Doc_2', 'Doc_3']
+l_depth = [1, 3, 2]
+ret = sum([[ (name, i) for i in  range(1, depth + 1)] for name, depth in zip(l_name, l_depth)], [])
+l_doc, l_page = zip(*ret)
+```
 
 ---
