@@ -59,4 +59,6 @@ for i, j in zip(l_name, l_depth):
 
 list comprehension create new local scope and exec in Python3 becomes real function. Very good question.
 
+but [this answer](https://stackoverflow.com/a/45196415/7025361) is better than the accepted.
+
 ---
