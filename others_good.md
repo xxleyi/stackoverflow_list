@@ -39,3 +39,17 @@ ret = Session.query(exists().where(SomeObject.field==value)).scalar()
 ```
 
 ---
+[python - How can I multiply elements in one list while providing a range in another - Stack Overflow](https://stackoverflow.com/questions/56662199/how-can-i-multiply-elements-in-one-list-while-providing-a-range-in-another/56662688#56662688)
+
+大道至简，我费劲心思优化之后取得结果反倒比这样直接暴力写出来的还要慢，看来 Python 背地里对 list += 做了优化
+```python
+l_name = ['Doc_1', 'Doc_2', 'Doc_3']
+l_depth = [1, 3, 2]
+
+l_doc = []
+l_page = []
+
+for i, j in zip(l_name, l_depth):
+    l_doc.extend([i] * j)
+    l_page.extend(range(1, j + 1))
+```
