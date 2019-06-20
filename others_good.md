@@ -53,3 +53,10 @@ for i, j in zip(l_name, l_depth):
     l_doc.extend([i] * j)
     l_page.extend(range(1, j + 1))
 ```
+
+---
+[python - list comprehension in exec with empty locals: NameError - Stack Overflow](https://stackoverflow.com/questions/45132645/list-comprehension-in-exec-with-empty-locals-nameerror)
+
+list comprehension create new local scope and exec in Python3 becomes real function. Very good question.
+
+---
