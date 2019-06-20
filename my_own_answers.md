@@ -104,3 +104,8 @@ same as above in some way.
 very cool.
 
 ---
+[python - How can I multiply elements in one list while providing a range in another - Stack Overflow](https://stackoverflow.com/questions/56662199/how-can-i-multiply-elements-in-one-list-while-providing-a-range-in-another/56669574#56669574)
+
+不断优化，越看越舒服，尽量不用 index 应该成为 python 的一个小准则
+
+---
