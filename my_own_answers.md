@@ -140,3 +140,13 @@ Try package topic, leant more.
 漂亮且具备示范性，如何在不完全知道问题答案的情况下，按图索骥，最终找到真正答案所在：**mangling in Python is for all names.**
 
 ---
+[python - how to filter a list of string that contains dates - Stack Overflow](https://stackoverflow.com/questions/56696889/how-to-filter-a-list-of-string-that-contains-dates/56696957#56696957)
+
+'string' compare
+
+---
+[How to compare list and return match and non match in python? - Stack Overflow](https://stackoverflow.com/questions/56696114/how-to-compare-list-and-return-match-and-non-match-in-python/56697482#56697482)
+
+use `conditional expression` in comprehension
+
+---
