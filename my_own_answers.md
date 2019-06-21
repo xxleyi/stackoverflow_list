@@ -115,3 +115,28 @@ l_doc, l_page = zip(*ret)
 ```
 
 ---
+[python - What's the point of assignment to slice? - Stack Overflow](https://stackoverflow.com/questions/56675075/whats-the-point-of-assignment-to-slice/56677153#56677153)
+
+slice is one type of object in Python.
+
+---
+[GIT - Going back to a previous commit and modify it - Stack Overflow](https://stackoverflow.com/questions/56681602/git-going-back-to-a-previous-commit-and-modify-it/56681719#56681719)
+
+Try git topic, learnt more.
+
+---
+[Python, importing from same module: ImportError: cannot import name 'blah', __name__ == '__main__' - Stack Overflow](https://stackoverflow.com/questions/56687346/python-importing-from-same-module-importerror-cannot-import-name-blah-na/56688526#56688526)
+
+Try package topic, leant more.
+
+---
+[python - Key Error 40 when using function from different Notebook - Stack Overflow](https://stackoverflow.com/questions/56687239/key-error-40-when-using-function-from-different-notebook/56689008#56689008)
+
+为了得分答题，锻炼自己的泛 debug 技能。
+
+---
+[python - Why are all double-underscore variables mangled in class methods - Stack Overflow](https://stackoverflow.com/questions/56695329/why-are-all-double-underscore-variables-mangled-in-class-methods/56695450#56695450)
+
+漂亮且具备示范性，如何在不完全知道问题答案的情况下，按图索骥，最终找到真正答案所在：**mangling in Python is for all names.**
+
+---
