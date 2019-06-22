@@ -150,3 +150,73 @@ Try package topic, leant more.
 use `conditional expression` in comprehension
 
 ---
+[python combing three lists to one in specific format](https://stackoverflow.com/questions/56713475/python-combing-three-lists-to-one-in-specific-format/56713787#56713787)
+
+comprehension can also be used to replace multi for(the accepted one used `product`)
+
+---
+[categorize sentence based on words in sentence for multiple sentences](https://stackoverflow.com/questions/56666289/categorize-sentence-based-on-words-in-sentence-for-multiple-sentences/56712394#56712394)
+
+use `conditional expression` in comprehension, again.
+
+---
+[Why doesn't the item in the stack gets popped off immediately when you return in recursion?](https://stackoverflow.com/questions/56712064/why-doesnt-the-item-in-the-stack-gets-popped-off-immediately-when-you-return-in/56712192#56712192)
+
+Try to use Python Tutor in answer.
+
+---
+[How to sum up amount in django choices](https://stackoverflow.com/questions/56625294/how-to-sum-up-amount-in-django-choices/56712166#56712166)
+
+sum(map(float, str_list)))
+
+---
+[Print only the even numbers in nested lists](https://stackoverflow.com/questions/56711928/print-only-the-even-numbers-in-nested-lists/56712100#56712100)
+
+use chain(\*iterable_iterable_list): `[i for i in chain(*mylist1) if i % 2 == 0]`
+
+---
+[How to filter based off multiple values?](https://stackoverflow.com/questions/56711727/how-to-filter-based-off-multiple-values/56711780#56711780)
+
+js questoin, hahah:
+```js
+let filter_array = [' ', '.']
+let arr = Array.from(' .test. ')
+arr.filter(char => !filter_array.includes(char))
+```
+
+---
+[Difference between list.pop() and list = list[:-1]](https://stackoverflow.com/questions/56711615/difference-between-list-pop-and-list-list-1/56711630#56711630)
+
+送分题。
+
+---
+[How can I create a single dictionary out of a dictionaries within a dictionary with some different and similar keys](https://stackoverflow.com/questions/56711039/how-can-i-create-a-single-dictionary-out-of-a-dictionaries-within-a-dictionary-w/56711547#56711547)
+
+use multi level comprehension sorted, groupby.
+
+---
+[How to fix: “Unindent does not match any outer indentation level”. Python](https://stackoverflow.com/questions/56711207/how-to-fix-unindent-does-not-match-any-outer-indentation-level-python/56711303#56711303)
+
+送分题。
+
+---
+[Most clear, Pythonic, reliable, and fastest way to check if a string contains words from a list of lists](https://stackoverflow.com/questions/56710904/most-clear-pythonic-reliable-and-fastest-way-to-check-if-a-string-contains-wo/56711078#56711078)
+
+use chain and any.
+
+---
+[Comparing multiple keys in a nested dictionary](https://stackoverflow.com/questions/56704075/comparing-multiple-keys-in-a-nested-dictionary/56704946#56704946)
+
+first sorted, second groupby 
+
+---
+[How to fix 'TypeError: move_to_right() missing 1 required positional argument: 'learner''](https://stackoverflow.com/questions/56702157/how-to-fix-typeerror-move-to-right-missing-1-required-positional-argument/56703911#56703911)
+
+送分题。
+
+---
+[Enumerate over values of 2 python dictionary of dictionaries simultaneously?](https://stackoverflow.com/questions/56701499/enumerate-over-values-of-2-python-dictionary-of-dictionaries-simultaneously/56701996#56701996)
+
+use unpack smartly.
+
+---
