@@ -39,11 +39,6 @@ JS 经常带来惊吓。
 同上。
 
 ---
-[JavaScript - Is it okay to define a property of a previously declared object during a variable declaration? - Stack Overflow](https://stackoverflow.com/questions/56615111/javascript-is-it-okay-to-define-a-property-of-a-previously-declared-object-dur/56615348#56615348)
-
-JS 再一次出乎我意料，于是反向推理一番，还挺过瘾。
-
----
 [python - Changes made to variable not reflected in console - Stack Overflow](https://stackoverflow.com/questions/56615309/changes-made-to-array-not-reflected-in-console/56615658?noredirect=1#comment99805605_56615658)
 
 自己满意，提问者也满意。值得被更多人看到，可惜这非我之力所能及，随缘吧。
