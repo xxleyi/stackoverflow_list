@@ -62,3 +62,8 @@ list comprehension create new local scope and exec in Python3 becomes real funct
 but [this answer](https://stackoverflow.com/a/45196415/7025361) is better than the accepted.
 
 ---
+[JavaScript - Is it okay to define a property of a previously declared object during a variable declaration? - Stack Overflow](https://stackoverflow.com/questions/56615111/javascript-is-it-okay-to-define-a-property-of-a-previously-declared-object-dur/56615348#56615348)
+
+JS 变量声明中的微妙之处。
+
+---
