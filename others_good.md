@@ -67,3 +67,8 @@ but [this answer](https://stackoverflow.com/a/45196415/7025361) is better than t
 JS 变量声明中的微妙之处。
 
 ---
+[Representing graphs (data structure) in Python - Stack Overflow](https://stackoverflow.com/questions/19472530/representing-graphs-data-structure-in-python)
+
+Represent Graph in Python
+
+---
