@@ -72,3 +72,26 @@ JS 变量声明中的微妙之处。
 Represent Graph in Python
 
 ---
+[python - How can I iterate over all possible values of a dictionary? - Stack Overflow](https://stackoverflow.com/questions/56860697/how-can-i-iterate-over-all-possible-values-of-a-dictionary/56861874#56861874)
+
+使用递归简化代码复杂度的绝佳实例
+
+```python
+from itertools import product
+
+def traverse(d):
+    K,V = zip(*d.items())
+    for v in product(*(v if isinstance(v,list) else traverse(v) for v in V)):
+        yield dict(zip(K,v)) >>> d = {
+>>>     "key0": {
+>>>         "key1": [1, 2],
+>>>         "key2": [8, 9, 10]
+>>>     },
+>>>     "key3": [22, 23, 24]
+>>> }
+
+>>> from pprint import pprint
+>>> pprint([*traverse(d)])
+```
+
+---
