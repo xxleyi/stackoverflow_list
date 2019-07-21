@@ -95,3 +95,11 @@ def traverse(d):
 ```
 
 ---
+2019-07-21 | Sunday | No.202 | Week.28
+
+[data modeling - Choosing a partition key for a Cassandra table -- how many is too many partitions? - Stack Overflow](https://stackoverflow.com/questions/30648479/choosing-a-partition-key-for-a-cassandra-table-how-many-is-too-many-partition)
+
+解惑了，partition 本来就是碎片化的，碎片化程度与选择的 partition key 无关，与节点个数倒是有一点关系。
+
+---
+
