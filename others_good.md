@@ -102,4 +102,60 @@ def traverse(d):
 解惑了，partition 本来就是碎片化的，碎片化程度与选择的 partition key 无关，与节点个数倒是有一点关系。
 
 ---
+2019-07-22 | Monday | No.203 | Week.29
 
+[multithreading - How to combine python asyncio with threads? - Stack Overflow](https://stackoverflow.com/questions/28492103/how-to-combine-python-asyncio-with-threads)
+
+其中第二个未被接受的答案的思路超级棒，稍加改造之后，便可以很舒服的用于将很多「不好改为异步或者纯cpu型」的同步函数封装为异步函数，提升代码整体性能。
+
+```python
+import time
+import asyncio
+
+
+class Executor:
+    """In most cases, you can just use the 'execute' instance as a
+    function, i.e. y = await execute(f, a, b, k=c) => run f(a, b, k=c) in
+    the executor, assign result to y. The defaults can be changed, though,
+    with your own instantiation of Executor, i.e. execute =
+    Executor(nthreads=4)"""
+
+    def __init__(self, loop=None, nthreads=1):
+        from concurrent.futures import ThreadPoolExecutor
+
+        if not loop:
+            loop = asyncio.events.get_running_loop()
+        self._ex = ThreadPoolExecutor(nthreads)
+        self._loop = loop
+
+    def __call__(self, f, *args, **kw):
+        from functools import partial
+
+        return self._loop.run_in_executor(self._ex, partial(f, *args, **kw))
+
+
+def cpu_bound_operation(t, alpha=30):
+    import time
+
+    time.sleep(t)
+    return 20 * alpha
+
+
+async def async_wrapper_of_sync():
+    execute = Executor()
+    y = await execute(cpu_bound_operation, 2, alpha=-2)
+    return y
+
+
+async def main():
+    res = await asyncio.gather(*(async_wrapper_of_sync() for i in range(4)))
+    return res
+
+
+start = time.time()
+res = asyncio.run(main())
+print(time.time() - start)
+print(res)
+```
+
+---
