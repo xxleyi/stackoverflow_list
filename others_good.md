@@ -142,9 +142,17 @@ def cpu_bound_operation(t, alpha=30):
 
 
 async def async_wrapper_of_sync():
-    execute = Executor()
-    y = await execute(cpu_bound_operation, 2, alpha=-2)
-    return y
+    # 3 threads for three tasks, which can be adjusted.
+    execute = Executor(nthreads=3)
+    x_task = asyncio.ensure_future(execute(cpu_bound_operation, 2, alpha=-2))
+    y_task = asyncio.ensure_future(execute(cpu_bound_operation, 2, alpha=-2))
+    z_task = asyncio.ensure_future(execute(cpu_bound_operation, 2, alpha=-2))
+    x = await x_task
+    y = await y_task
+    z = await z_task
+    # or use asyncio.gather
+    # x, y, z = await asyncio.gather(*(execute(cpu_bound_operation, 2, alpha=-2) for i in range(3)))
+    return x + y + z
 
 
 async def main():
