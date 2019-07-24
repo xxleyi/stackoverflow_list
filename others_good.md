@@ -124,7 +124,7 @@ class Executor:
         from concurrent.futures import ThreadPoolExecutor
 
         if not loop:
-            loop = asyncio.events.get_running_loop()
+            loop = asyncio.get_running_loop()
         self._ex = ThreadPoolExecutor(nthreads)
         self._loop = loop
 
