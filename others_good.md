@@ -167,3 +167,20 @@ print(res)
 ```
 
 ---
+[What is this kind of assignment in Python called? a = b = True - Stack Overflow](https://stackoverflow.com/questions/11498441/what-is-this-kind-of-assignment-in-python-called-a-b-true)
+
+Python is different:
+
+```
+python
+a = b = c
+```
+means
+```
+python
+temp = c
+a = temp
+b = temp
+```
+
+---
