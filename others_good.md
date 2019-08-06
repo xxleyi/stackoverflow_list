@@ -184,3 +184,8 @@ b = temp
 ```
 
 ---
+[garbage collection - Python del statement - Stack Overflow](https://stackoverflow.com/questions/14969739/python-del-statement)
+
+> python gc is only needed for reclaiming cyclic structures.
+
+---
