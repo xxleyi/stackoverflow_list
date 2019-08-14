@@ -189,3 +189,8 @@ b = temp
 > python gc is only needed for reclaiming cyclic structures.
 
 ---
+[django - Docker/Kubernetes + Gunicorn/Celery - Multiple Workers vs Replicas? - Stack Overflow](https://stackoverflow.com/questions/51610189/docker-kubernetes-gunicorn-celery-multiple-workers-vs-replicas)
+
+k8s gunicorn celery setting best practice
+
+---
