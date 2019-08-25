@@ -215,3 +215,8 @@ first sorted, second groupby
 use unpack smartly.
 
 ---
+[python - print() method to print passed expression literally along with computed output for quick debugging - Stack Overflow](https://stackoverflow.com/questions/57513765/print-method-to-print-passed-expression-literally-along-with-computed-output-f/57647436#57647436)
+
+use inspect and lambda smartly.
+
+---
