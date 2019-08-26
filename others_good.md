@@ -194,3 +194,8 @@ b = temp
 k8s gunicorn celery setting best practice
 
 ---
+[python - Concatenation of the result of a function with a mutable default argument - Stack Overflow](https://stackoverflow.com/questions/57593294/concatenation-of-the-result-of-a-function-with-a-mutable-default-argument)
+
+help me understand evaluation in python deeper
+
+---
