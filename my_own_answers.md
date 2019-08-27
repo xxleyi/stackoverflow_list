@@ -219,4 +219,17 @@ use unpack smartly.
 
 use inspect and lambda smartly.
 
+但是，后来事实证明，我的答案不够准确，看别人准确的答案：
+```python
+from inspect import getframeinfo, currentframe
+
+
+def vprint(value):
+    caller = currentframe().f_back
+    info = getframeinfo(caller)
+    label = ''.join(info.code_context).strip()
+    label = label.replace('vprint(', '')[:-1].strip()
+    print(label, '=', value)
+```
+
 ---
