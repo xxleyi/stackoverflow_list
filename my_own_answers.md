@@ -233,3 +233,40 @@ def vprint(value):
 ```
 
 ---
+[Give function defaults arguments from a dictionary in Python - Stack Overflow](https://stackoverflow.com/questions/57592380/give-function-defaults-arguments-from-a-dictionary-in-python/57730055#57730055)
+
+```python
+from collections import defaultdict
+
+# only set once when function definition is executed
+def kwdefault_decorator(default_dict):
+    def wrapper(f):
+        f.__kwdefaults__ = {}
+        f_code = f.__code__
+        keys = list(reversed(f_code.co_varnames))[0 : f_code.co_kwonlyargcount]
+        for k in keys:
+            f.__kwdefaults__[k] = default_dict[k]
+        return f
+
+    return wrapper
+
+default_dict = defaultdict(lambda: "default_value")
+default_dict["a"] = "a"
+default_dict["m"] = "m"
+
+@kwdefault_decorator(default_dict)
+def foo(x, *, a, b):
+    print(x, a, b)
+
+@kwdefault_decorator(default_dict)
+def bar(x, *, m, n):
+    print(x, m, n)
+
+foo(1)
+bar(1)
+# only kw_arg permitted
+foo(1, a=100, b=100)
+bar(1, m=100, n=100)
+```
+
+---
