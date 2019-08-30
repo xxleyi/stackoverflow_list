@@ -227,3 +227,10 @@ for row in range(-1,42):
 
 # Simple usage: print(fg("text", 160))
 ```
+
+---
+[python - Is there a way to access the context from everywhere in Django? - Stack Overflow](https://stackoverflow.com/questions/16633952/is-there-a-way-to-access-the-context-from-everywhere-in-django)
+
+access request with middleware, no need to pass request.
+
+---
