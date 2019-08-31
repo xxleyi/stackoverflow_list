@@ -243,7 +243,8 @@ def kwdefault_decorator(default_dict):
     def wrapper(f):
         f.__kwdefaults__ = {}
         f_code = f.__code__
-        keys = list(reversed(f_code.co_varnames))[0 : f_code.co_kwonlyargcount]
+        po_arg_count = f_code.co_argcount
+        keys = f_code.co_varnames[po_arg_count : po_arg_count + f_code.co_kwonlyargcount]
         for k in keys:
             f.__kwdefaults__[k] = default_dict[k]
         return f
@@ -256,11 +257,13 @@ default_dict["m"] = "m"
 
 @kwdefault_decorator(default_dict)
 def foo(x, *, a, b):
-    print(x, a, b)
+    foo_local = "foo"
+    print(x, a, b, foo_local)
 
 @kwdefault_decorator(default_dict)
 def bar(x, *, m, n):
-    print(x, m, n)
+    bar_local = "bar"
+    print(x, m, n, bar_local)
 
 foo(1)
 bar(1)
