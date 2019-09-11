@@ -234,3 +234,8 @@ for row in range(-1,42):
 access request with middleware, no need to pass request.
 
 ---
+[Are dictionaries ordered in Python 3.6+? - Stack Overflow](https://stackoverflow.com/questions/39980323/are-dictionaries-ordered-in-python-3-6)
+
+"Dict keeps insertion order" is the ruling in Python3.7+ and it's faster.
+
+---
