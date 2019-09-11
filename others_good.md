@@ -239,3 +239,8 @@ access request with middleware, no need to pass request.
 "Dict keeps insertion order" is the ruling in Python3.7+ and it's faster.
 
 ---
+[strong typing - Is Python strongly typed? - Stack Overflow](https://stackoverflow.com/questions/11328920/is-python-strongly-typed/11328980#11328980)
+
+> Python is dynamic and strongly typed and JS is dynamic and weekly typed.
+
+---
