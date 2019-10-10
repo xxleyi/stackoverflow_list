@@ -244,3 +244,10 @@ access request with middleware, no need to pass request.
 > Python is dynamic and strongly typed and JS is dynamic and weekly typed.
 
 ---
+[python - Why does b+=(4,) work and b = b + (4,) doesn't work when b is a list? - Stack Overflow](https://stackoverflow.com/questions/58259682/why-does-b-4-work-and-b-b-4-doesnt-work-when-b-is-a-list)
+
+> `s += t s.extend(t)`
+> are defined as:
+> extends `s` with the contents of `t`
+
+---
