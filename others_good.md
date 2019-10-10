@@ -251,3 +251,8 @@ access request with middleware, no need to pass request.
 > extends `s` with the contents of `t`
 
 ---
+[scala - How to return early without return statement? - Stack Overflow](https://stackoverflow.com/questions/58134049/how-to-return-early-without-return-statement)
+
+> **Scala** is _(between other things)_ a functional programming language, as such there is a very important concept for us. And it is that we write programs by composing `expressions` rather than `statements`.
+
+---
