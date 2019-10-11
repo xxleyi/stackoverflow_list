@@ -256,3 +256,8 @@ access request with middleware, no need to pass request.
 > **Scala** is _(between other things)_ a functional programming language, as such there is a very important concept for us. And it is that we write programs by composing `expressions` rather than `statements`.
 
 ---
+[linux - How does "cat << EOF" work in bash? - Stack Overflow](https://stackoverflow.com/questions/2500436/how-does-cat-eof-work-in-bash)
+
+> In your case, "EOF" is known as a "Here Tag". Basically `<<Here` tells the shell that you are going to enter a multiline string until the "tag" `Here`. You can name this tag as you want, it's often `EOF` or `STOP`.
+
+---
