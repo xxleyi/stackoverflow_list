@@ -261,3 +261,10 @@ access request with middleware, no need to pass request.
 > In your case, "EOF" is known as a "Here Tag". Basically `<<Here` tells the shell that you are going to enter a multiline string until the "tag" `Here`. You can name this tag as you want, it's often `EOF` or `STOP`.
 
 ---
+[python - How to split pyspark dataframe - Stack Overflow](https://stackoverflow.com/questions/48884960/how-to-slice-a-pyspark-dataframe-in-two-row-wise/48887975#48887975)
+
+You can use also SparkSession instead of spark sqlContext if you work on spark 2.0+. Also if you are not interested in taking the first 100 rows and you want a random split you can use [randomSplit](http://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html#pyspark.sql.DataFrame.randomSplit) like this:
+    
+    df1,df2 = df.randomSplit([0.20, 0.80],seed=1234)
+
+---
