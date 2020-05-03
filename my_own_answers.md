@@ -273,3 +273,7 @@ bar(1, m=100, n=100)
 ```
 
 ---
+
+[javascript - Why can't use let to declare a variable using the same name as one function parameter, even the parameter get set default value? - Stack Overflow](https://stackoverflow.com/questions/56143898/why-cant-use-let-to-declare-a-variable-using-the-same-name-as-one-function-para/61561374#61561374)
+
+这道题没那么容易回答。我的回答可能也还是有错误，但基本原则和用意，以及确切的资料来源都有说明。有必要的话，可以仔细深究。
